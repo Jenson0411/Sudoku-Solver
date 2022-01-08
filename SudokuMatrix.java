@@ -18,6 +18,10 @@ public class SudokuMatrix{
 		this.board[row][column] = value;
 	}
 
+	public int getCoordinates(int column, int row){
+		return board[row][column];
+	}
+
 
 	public void displayBoard(){
 		System.out.println("____________________________________");
